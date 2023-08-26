@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgba(153, 141, 141, 0.363);
+  }
+
+  nav{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    text-align: center;
+    height: 50px;
+    
+  }
+
+  nav h1{
+    padding: 10px;
+  }
+
+  .cal{
+    background-color: rgba(82, 77, 77, 0.253);
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+
+  }
+
+  .cal h2{
+    text-align: center;
+  }
+
+  .cal form{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  button{
+    margin-bottom: 20px;
+    background-color: rgb(0, 110, 255);
+    color: antiquewhite;
+    
+  }
+
+ table{
+  margin-top: 50px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  
+ }
+
+#show th,#show td{
+  padding: 13px;
+}

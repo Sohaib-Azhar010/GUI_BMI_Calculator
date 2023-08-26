@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>BMI CALCULATOR</h1>
+      </nav>
+    </header>
+    <div class="cal">
+      <h2>Here You can calculate your BMI</h2>
+      <hr />
+
+      <form>
+        <label for="name">Enter your name:</label><br />
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="weight">Enter Weight in KGs:</label><br />
+        <input type="text" id="weight" name="weight" /><br /><br />
+        <label for="height">Enter Heigh in Feet:</label><br />
+        <input type="text" id="height" name="height" /><br /><br />
+        <button type="button" onclick="AddRow()">Calculate BMI</button>
+      </form>
+    </div>
+    <center>
+    <table border="4" id="show">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Weight</th>
+          <th>Height</th>
+          <th>BMI</th>
+        </tr>
+      </thead>
+    </table>
+  </center>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
