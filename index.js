@@ -1,5 +1,4 @@
 
-
 var list1=[];
 var list2=[];
 var list3=[];
@@ -8,6 +7,7 @@ var list4=[];
 var n=1;
 var x=0;
 function AddRow(){
+
     var addrown=document.getElementById("show");
     var newrow=addrown.insertRow(n);
 
@@ -34,6 +34,7 @@ function AddRow(){
     n++;
     x++;
 
+    
 
 
 
