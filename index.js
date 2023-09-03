@@ -18,7 +18,7 @@ function AddRow(){
     height = document.getElementById("height").value;
     weight = document.getElementById("weight").value;
 
-    var result = parseFloat(weight) /(parseFloat((height*0.3048)*(height*0.3048)));
+    var result = parseFloat(parseFloat(weight) /(parseFloat((height*0.3048)*(height*0.3048)))).toFixed(2);
     list4[x]=result;
 
     var cel1=newrow.insertCell(0);
